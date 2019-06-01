@@ -9,6 +9,6 @@ function destructivelyPrependKitten (bob,kitten) {
   return kittens
 }
 function destructivelyRemoveLastKitten (Garfield,kittens){
-  
+  kittens.pop(Garfield)
   return kittens
 }
