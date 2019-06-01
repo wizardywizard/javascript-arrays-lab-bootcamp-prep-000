@@ -4,5 +4,8 @@ var kittens2 = "Ralph"
 function destructivelyAppendKitten (Ralph,kitten) {
 kittens.push(Ralph)
   return kittens
+}
+function destructivelyPrependKitten (bob,kitten) {
+  
   
 }
