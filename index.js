@@ -21,8 +21,8 @@ function destructivelyRemoveFirstKitten (Milo) {
 function appendKitten (kittens2) {
     return kittens.concat(kittens2)
 }
-function prependKitten (kittens3) {
-  return kittens3.concat(kittens)
+function prependKitten (kittens) {
+  return kittens.prepend(kittens3)
 }
 function removeLastKitten (kittens) {
   return kittens.slice(0,kittens.length-1)
