@@ -16,3 +16,7 @@ function destructivelyRemoveFirstKitten (Milo) {
   kittens.shift(Milo)
   return kittens
 }
+function appendKitten () {
+  
+  
+}
