@@ -6,6 +6,6 @@ kittens.push(Ralph)
   return kittens
 }
 function destructivelyPrependKitten (bob,kitten) {
-  
-  
+  kittens.unshift(bob)
+  return kittens
 }
