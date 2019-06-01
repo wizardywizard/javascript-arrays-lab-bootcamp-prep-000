@@ -9,7 +9,7 @@ function destructivelyPrependKitten (bob,kitten) {
   kittens.unshift(bob)
   return kittens
 }
-function destructivelyRemoveLastKitten (kitten){
+function destructivelyRemoveLastKitten (Garfield,kitten){
   kitten.pop(kittens)
   return kittens
 }
